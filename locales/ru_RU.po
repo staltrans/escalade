@@ -1,25 +1,23 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 16:38+0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2017-09-01 16:51+0500\n"
+"PO-Revision-Date: 2017-09-04 09:56+0500\n"
+"Last-Translator: boris_t <boris@talovikov.ru>\n"
+"Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: hook.php:311
 msgid "Group concerned by the escalation"
-msgstr ""
+msgstr "Группа заинтересованная в эскалации"
 
 #: hook.php:327 hook.php:341 inc/config.class.php:236 inc/user.class.php:129
 msgid "Enable filtering on the groups assignment"
@@ -28,71 +26,71 @@ msgstr ""
 #: setup.php:128 front/config.form.php:36 inc/group_group.class.php:16
 #: inc/user.class.php:176
 msgid "Escalation"
-msgstr ""
+msgstr "Эскалация"
 
 #: ajax/assign_me.php:5 front/climb_group.php:6
 msgid "missing parameters"
-msgstr ""
+msgstr "отсутствующие параметры"
 
 #: front/popup_histories.php:4
 msgid "full assignation history"
-msgstr ""
+msgstr "вся история назначения"
 
 #: inc/config.class.php:14
 msgid "Configuration Escalade plugin"
-msgstr ""
+msgstr "Настройка плагина Эскалация"
 
 #: inc/config.class.php:33
 msgid "Remove old assign group on new group assign"
-msgstr ""
+msgstr "При назначении новой группы удалять старую"
 
 #: inc/config.class.php:55
 msgid "show group assign history visually"
-msgstr ""
+msgstr "показывать историю назначения групп визульно"
 
 #: inc/config.class.php:67
 msgid "Escalation history in tasks"
-msgstr ""
+msgstr "История эскалаций в задачах"
 
 #: inc/config.class.php:76
 msgid "Remove technician(s) on escalation"
-msgstr ""
+msgstr "Удалять специалистов при эскалации"
 
 #: inc/config.class.php:88
 msgid "Ticket status after an escalation"
-msgstr ""
+msgstr "Статус заявки после эскалации"
 
 #: inc/config.class.php:96
 msgid "Assign ticket to initial group on solve ticket"
-msgstr ""
+msgstr "При решении заявки назначить её первой назначенной группе"
 
 #: inc/config.class.php:109
 msgid "Assign the technical manager on ticket category change"
-msgstr ""
+msgstr "Назначить специалиста при изменении категории заявки"
 
 #: inc/config.class.php:120
 msgid "Assign the technical group on ticket category change"
-msgstr ""
+msgstr "Назначить группу при изменении категории заявки"
 
 #: inc/config.class.php:132
 msgid "Clone tickets"
-msgstr ""
+msgstr "Клонировать заявки"
 
 #: inc/config.class.php:142
 msgid "Close cloned tickets at the same time"
-msgstr ""
+msgstr "Закрыть клонированные заявки одновременно"
 
 #: inc/config.class.php:160
 msgid "Use the technician's group"
-msgstr ""
+msgstr "Использовать группу специалистов"
 
 #: inc/config.class.php:173
 msgid "a time of creation"
-msgstr ""
+msgstr "время создания"
 
 #: inc/config.class.php:183
 msgid "a time of modification"
-msgstr ""
+msgstr "время изменения"
 
 #: inc/config.class.php:195
 msgid ""
@@ -102,27 +100,27 @@ msgstr ""
 
 #: inc/config.class.php:204
 msgid "Display delete button of assigned groups"
-msgstr ""
+msgstr "Показать кнопку удаления назначенных групп"
 
 #: inc/config.class.php:214
 msgid "Display delete button of assigned users"
-msgstr ""
+msgstr "Показать кнопку удаления назначенных пользователей"
 
 #: inc/config.class.php:226
 msgid "Display delete button of assigned suppliers"
-msgstr ""
+msgstr "Показать кнопку удаления назначенных поставщиков"
 
 #: inc/config.class.php:269
 msgid "Don't change"
-msgstr ""
+msgstr "Не изменять"
 
 #: inc/history.class.php:80
 msgid "Reassign the ticket to group"
-msgstr ""
+msgstr "Переназначить заявку на группу"
 
 #: inc/history.class.php:103
 msgid "View full history"
-msgstr ""
+msgstr "Просмотреть всю историю"
 
 #: inc/history.class.php:148
 msgid "Tickets to follow (climbed)"
@@ -134,27 +132,27 @@ msgstr ""
 
 #: inc/ticket.class.php:95
 msgid "Solution provided, back to the group"
-msgstr ""
+msgstr "Решение предоставлено, вернуть на группу"
 
 #: inc/ticket.class.php:153
 msgid "Solution rejected, return to the group"
-msgstr ""
+msgstr "Решение отклонено, передача на группу"
 
 #: inc/ticket.class.php:228
 msgid "escalated to the group"
-msgstr ""
+msgstr "эскалация на группу"
 
 #: inc/ticket.class.php:592
 msgid "Error : get old ticket"
-msgstr ""
+msgstr "Ошибка получения старой заявки"
 
 #: inc/ticket.class.php:610
 msgid "Error : adding new ticket"
-msgstr ""
+msgstr "Ошибка добавления новой заявки"
 
 #: inc/ticket.class.php:622
 msgid "Error : adding link between the two tickets"
-msgstr ""
+msgstr "Ошибка связывания двух заявок"
 
 #: inc/ticket.class.php:631 inc/ticket.class.php:672 inc/ticket.class.php:677
 msgid "This ticket has been from the ticket num"
@@ -162,20 +160,20 @@ msgstr ""
 
 #: inc/ticket.class.php:636
 msgid "Error : adding followups"
-msgstr ""
+msgstr "Ошибка добавления наблюдателя"
 
 #: inc/ticket.class.php:647
 msgid "Error : adding actors (user)"
-msgstr ""
+msgstr "Ошибка добавления участников (пользователя)"
 
 #: inc/ticket.class.php:656
 msgid "Error : adding actors (group)"
-msgstr ""
+msgstr "Ошибка добавления участников (группы)"
 
 #: inc/ticket.class.php:666
 msgid "Error : adding documents"
-msgstr ""
+msgstr "Ошибка добавления документов"
 
 #: scripts/cloneandlink_ticket.js.php:13
 msgid "Clone and link"
-msgstr ""
+msgstr "Клонировать и связать"
